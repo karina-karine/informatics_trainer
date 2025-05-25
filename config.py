@@ -20,7 +20,7 @@ class Config:
             'port': 3306,
             'database': 'informatics_trainer',
             'user': 'root',
-            'password': '',
+            'password': '1111',
             'charset': 'utf8mb4'
         }
     }
