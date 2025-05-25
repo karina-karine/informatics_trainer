@@ -458,7 +458,7 @@ class DataExporter:
                 parent=styles['Heading1'],
                 fontSize=18,
                 spaceAfter=30,
-                alignment=1  # Центрування
+                alignment=1
             )
 
             if report_type == "system_report":

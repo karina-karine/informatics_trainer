@@ -368,7 +368,7 @@ class TestManager:
                 cursor.execute('''
                     INSERT INTO answer_details (test_result_id, question_id, user_answer, is_correct, time_spent)
                     VALUES (?, ?, ?, ?, ?)
-                ''', (test_result_id, question.question_id, user_answer, is_correct, 30))  # Приблизний час на питання
+                ''', (test_result_id, question.question_id, user_answer, is_correct, 30))
 
         conn.commit()
         conn.close()
@@ -887,7 +887,7 @@ class InformaticsTrainerGUI:
                 tree.column(col, width=120)
 
             for result in results:
-                date = result[0][:16]  # Обрізаємо секунди
+                date = result[0][:16]
                 category = result[1]
                 total = result[2]
                 correct = result[3]

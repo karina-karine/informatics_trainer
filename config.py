@@ -80,7 +80,7 @@ class Config:
         'level': 'INFO',
         'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s',
         'file': 'informatics_trainer.log',
-        'max_file_size': 10 * 1024 * 1024,  # 10 MB
+        'max_file_size': 10 * 1024 * 1024,
         'backup_count': 5
     }
 
