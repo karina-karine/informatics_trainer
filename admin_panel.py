@@ -32,7 +32,7 @@ class QuestionManager:
 
         cursor.execute('''
             SELECT q.id, c.name, q.question_text, q.question_type, 
-                   q.correct_answer, q.difficulty, q.usage_count
+                   q.correct_answer, q.difficulty, 0
             FROM questions q
             JOIN categories c ON q.category_id = c.id
             ORDER BY c.name, q.difficulty, q.id
